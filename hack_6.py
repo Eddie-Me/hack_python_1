@@ -2,7 +2,11 @@
 loop: for [] output => [0,1,2,3,4,5]
 """
 
+output=[]
 def fn_hack_6():
-    result = []
-    #...
+    result= []
+    for i in range(6):
+        result.append(i)
     return result  
+
+print(fn_hack_6())
